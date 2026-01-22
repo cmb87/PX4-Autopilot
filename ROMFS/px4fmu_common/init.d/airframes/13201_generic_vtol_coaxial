@@ -37,8 +37,8 @@ param set-default CA_SV_CS1_TYPE 3
 
 
 param set-default VT_TYPE 0
-param set-default VT_ELEV_MC_LOCK 	0
-param set-default VT_B_TRANS_DUR 	12
-param set-default VT_TRANS_MIN_TM	10
-param set-default VT_FW_DIFTHR_EN         2
-param set-default VT_FW_DIFTHR_S_R	0.5
+param set-default VT_ELEV_MC_LOCK 0
+param set-default VT_B_TRANS_DUR 12
+param set-default VT_TRANS_MIN_TM 10
+param set-default VT_FW_DIFTHR_EN 2
+param set-default VT_FW_DIFTHR_S_R 0.5
