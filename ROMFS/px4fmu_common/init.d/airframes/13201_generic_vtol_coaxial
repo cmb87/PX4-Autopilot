@@ -14,21 +14,31 @@
 
 param set-default EKF2_FUSE_BETA 0 # side slip fusion is currently not supported for tailsitters
 
+param set-default MAV_TYPE 19
 param set-default CA_AIRFRAME 16
 param set-default CA_ROTOR_COUNT 2
 param set-default CA_ROTOR0_KM -0.05
-param set-default CA_ROTOR0_PY -0.2
+param set-default CA_ROTOR0_PY 0.0
+param set-default CA_ROTOR0_PX 0.0
+param set-default CA_ROTOR0_PZ 0.0
 param set-default CA_ROTOR1_KM 0.05
-param set-default CA_ROTOR1_PY 0.2
+param set-default CA_ROTOR1_PY 0.0
+param set-default CA_ROTOR1_PX 0.0
+param set-default CA_ROTOR1_PZ 0.0
 param set-default CA_SV_CS_COUNT 2
-param set-default CA_SV_CS0_TRQ_P 0.5
-param set-default CA_SV_CS0_TRQ_Y 0.5
-param set-default CA_SV_CS0_TYPE 5
-param set-default CA_SV_CS1_TRQ_P 0.5
-param set-default CA_SV_CS1_TRQ_Y -0.5
-param set-default CA_SV_CS1_TYPE 6
+param set-default CA_SV_CS0_TRQ_P 0.0
+param set-default CA_SV_CS0_TRQ_Y 0.0
+param set-default CA_SV_CS0_TRQ_R 0.9
+param set-default CA_SV_CS0_TYPE 4
+param set-default CA_SV_CS1_TRQ_P 1.5
+param set-default CA_SV_CS1_TRQ_Y 0.0
+param set-default CA_SV_CS1_TRQ_R 0.0
+param set-default CA_SV_CS1_TYPE 3
 
-param set-default MAV_TYPE 19
+
 param set-default VT_TYPE 0
-param set-default VT_ELEV_MC_LOCK 0
-param set-default VT_B_TRANS_DUR 5
+param set-default VT_ELEV_MC_LOCK 	0
+param set-default VT_B_TRANS_DUR 	12
+param set-default VT_TRANS_MIN_TM	10
+param set-default VT_FW_DIFTHR_EN         2
+param set-default VT_FW_DIFTHR_S_R	0.5
