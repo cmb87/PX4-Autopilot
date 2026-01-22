@@ -43,6 +43,7 @@ px4_add_romfs_files(
 	1016_gazebo-classic_iris_downward_depth_camera
 	1017_gazebo-classic_iris_opt_flow_mockup
 	1019_gazebo-classic_iris_dual_gps
+        10020_none_uav
 	1021_gazebo-classic_uuv_hippocampus
 	1022_gazebo-classic_uuv_bluerov2_heavy
 	1030_gazebo-classic_plane

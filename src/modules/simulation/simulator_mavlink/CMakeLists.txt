@@ -69,3 +69,14 @@ add_custom_target(none_iris
 		${PX4_SOURCE_DIR}/ROMFS/px4fmu_common/init.d-posix/airframes/10016_none_iris
 	COMMENT "launching px4 none_iris (SYS_AUTOSTART=10016)"
 )
+
+# none_iris (legacy compatibility launch helper)
+add_custom_target(none_uav
+	COMMAND ${CMAKE_COMMAND} -E env PX4_SYS_AUTOSTART=10020 $<TARGET_FILE:px4>
+	WORKING_DIRECTORY ${SITL_WORKING_DIR}
+	USES_TERMINAL
+	DEPENDS
+		px4
+		${PX4_SOURCE_DIR}/ROMFS/px4fmu_common/init.d-posix/airframes/10020_none_uav
+	COMMENT "launching px4 none_uav (SYS_AUTOSTART=10020)"
+)
