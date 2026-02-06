@@ -46,6 +46,7 @@
 #include <ActuatorEffectivenessStandardVTOL.hpp>
 #include <ActuatorEffectivenessTiltrotorVTOL.hpp>
 #include <ActuatorEffectivenessTailsitterVTOL.hpp>
+#include <ActuatorEffectivenessTailsitterCoaxial.hpp>
 #include <ActuatorEffectivenessRoverAckermann.hpp>
 #include <ActuatorEffectivenessFixedWing.hpp>
 #include <ActuatorEffectivenessMCTilt.hpp>
@@ -160,6 +161,7 @@ private:
 		HELICOPTER_COAXIAL = 12,
 		SPACECRAFT_2D = 13,
 		SPACECRAFT_3D = 14,
+		TAILSITTER_COAXIAL = 16,
 	};
 
 	enum class FailureMode {
